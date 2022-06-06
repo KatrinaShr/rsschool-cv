@@ -21,6 +21,8 @@ My strengths are:
 * CSS 
 * Git/GitHub
 * Jira
+* Figma
+*
 * BA (Technology)
 * QA (Technology)
 
