@@ -22,7 +22,7 @@ My strengths are:
 * Git/GitHub
 * Jira
 * Figma
-*
+* Photoshop
 * BA (Technology)
 * QA (Technology)
 
