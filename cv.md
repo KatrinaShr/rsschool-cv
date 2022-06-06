@@ -1,5 +1,4 @@
 ## Rudziak Katrina
-***
 ### Contacts
 >Phone: +375 33 389 69 35 <br>
 >E-mail: katrineshr@gmail.com <br>
