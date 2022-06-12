@@ -106,3 +106,7 @@
     color: #161616;
     font-size: 16px;
 }
+
+.container-footer a:hover {
+    color: #4d2323;
+}
