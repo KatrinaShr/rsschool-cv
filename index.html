@@ -1,1 +1,112 @@
-text html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/Recap_23592.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>CV - Rudziak Katrina</title>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Examples</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                  </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main main-container">
+        <div class="container">
+            <div class="main-info">
+                <img class="avatar" src="assets/avatar.jpg" alt="my photo">
+                <h1>Rudziak Katrina - Java Script Developer</h1>
+            </div>
+            
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                <p class="section-contacts">Phone: +375 33 389 69 35 <br>
+                    E-mail: katrineshr@gmail.com <br>
+                    GitHub: KatrinaShr</p> 
+            </section>
+
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p class="section-summary">I'm 27 years old, working as a business analyst. Developing in JS is something that inspires me, keeps me busy, 
+                    develops me. In other words, it's a field in which I do what I love to do. 
+                    That's why I'm here. My goal is to gain knowledge in front-end development.</p>
+                <p>My strengths are:</p>
+                <ul>
+                    <li>Quick learning curve</li>
+                    <li>Results-oriented</li>
+                    <li>Full immersion in the essence of problems</li>
+                    <li>Hard work</li>
+                    <li>Perfectionism</li>
+                    <li>Team play</li>
+                    <li>Pursuit of new things</li>
+                    <li>Continuous learning</li>
+                </ul>
+            </section>
+
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Git/GitHub</li>
+                    <li>Jira</li>
+                    <li>Figma</li>
+                    <li>Photoshop</li>
+                    <li>BA (Technology)</li>
+                    <li>QA (Technology)</li>
+                </ul>
+            </section>
+
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <code>function sameCase(a, b) {
+                    if (typeof(a) !== "string" && typeof(b) !== "string") {
+                      return -1;
+                    } 
+                    else if ((a === a.toUpperCase() && b === b.toUpperCase()) || (a === a.toLowerCase() && b === b.toLowerCase())) 
+                    { return 1;
+                  } else {
+                    return 0;
+                  }
+                  }</code>
+            </section>
+
+            <section class="section" id="education">
+                <h2 class="section-title">Education</h2>
+                <p>2018 BarGu - Faculty of Engineering, Software Engineer</p>
+                <p>2014 A&E College - Information technology software, technician - programmer</p>
+            </section>
+
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <ul>
+                    <li>Russian - native speaker</li>
+                    <li>English - A2</li>
+                </ul>
+
+            </section>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container container-footer">
+                <a href="https://github.com/KatrinaShr" class="my-github">GitHub KatrinaShr</a>
+                <p>2022</p>
+                <a href="https://rs.school/js/" class="course">Course «JavaScript/Front-end»</a>
+                <img src="assets/rs_school_js.svg" class="rsshoolImg">
+        </div>
+    </footer>
+</body>
+</html>

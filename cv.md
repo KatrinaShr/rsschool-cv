@@ -46,6 +46,7 @@ Faculty of Engineering, Software Engineer
 
 - 2014
 **A&E College** - Information technology software, technician - programmer
+
 ### Languages
 * Russian - native speaker.
 * English - A2
