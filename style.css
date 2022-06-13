@@ -22,6 +22,10 @@
     color: #161616;
  }
 
+ .header {
+  background: #6A5C54;
+ }
+
  .container {
     max-width: 1440px;
     margin: 0 auto;
@@ -38,12 +42,12 @@
     padding: 0 20px;
     line-height: 50px;
     transition: .5s;
-    color: #829985;
+    color: #e9ddcb;
     text-decoration: none; 
   }
   
   .nav-link:hover {
-    color: #4d2323;
+    color: #E7242D;
   }
 
   .main-container {
@@ -66,15 +70,15 @@
     font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 5px;
-    color: #829985;
+    color: #6A5C54;
   }
 
   .avatar {
     width: 210px;
     height: 140px;
-    border-radius: 10px; /* Радиус скругления */
-    border: 3px solid #829985; /* Параметры рамки */
-    box-shadow: 0 0 7px #666; /* Параметры тени */
+    border-radius: 24px; /* Радиус скругления */
+    border: 2px solid #6A5C54; /* Параметры рамки */
+    box-shadow: 0 0 5px #3C3229; /* Параметры тени */
   }
 
   .main-info {
@@ -84,7 +88,7 @@
 
   h1 {
     margin: 0 5%;
-    color: #161616;
+    color: #3C3229;
     font-size: 20px;
     font-weight: 400;
     text-transform: uppercase;
@@ -92,7 +96,7 @@
 }
 
 .rsshoolImg {
-    width: 60px;
+    width: 50px;
 }
 
 .container-footer {
@@ -101,12 +105,21 @@
     align-items: center;
 }
 
-.container-footer a, p {
+.container-footer, 
+.my-github,
+.course {
     text-decoration: none;
-    color: #161616;
+    color: #e9ddcb;
     font-size: 16px;
+    transition: .5s;
+    max-height: 50px;
 }
 
 .container-footer a:hover {
-    color: #4d2323;
+    color: #E7242D;
+}
+
+.footer {
+  background: #6A5C54;
+  color: #e9ddcb;
 }
