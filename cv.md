@@ -7,7 +7,7 @@ Skype: live:bdd6d15c6251510a
 E-mail: katrineshr@gmail.com  
 GitHub: KatrinaShr  
 
-### About Me   
+### About me   
 Hi! Thanks for visiting my CV page. I'm in a process of changing my career path. 
 
 Now, I am working as a Business Analyst at Andersen. 
@@ -33,12 +33,12 @@ My strengths are:
 * Jira
 * Figma
 * Photoshop
-* Wiki (Confluense)
+* Wiki (Confluence)
 * BPMN
 * BA (Technology)
 * QA (Technology)
 
-### Code Examples  
+### Code examples  
 * Option 1:
 [My Project](https://rolling-scopes-school.github.io/katrinashr-JSFEPRESCHOOL2022Q2/momentum/)
 * Option 2: function towelSort (See below)
