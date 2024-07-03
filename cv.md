@@ -95,3 +95,7 @@ function towelSort (matrix) {
 
 - 2014
 **A&E College** - Information technology software, technician - programmer.
+
+### Languages  
+* English - A2+
+* Belarusian, Russian - Native speaker
