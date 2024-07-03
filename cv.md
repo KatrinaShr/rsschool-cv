@@ -1,5 +1,5 @@
 ## Rudziak Katrina - JavaScript Developer 
-<img src="./assets/0645.jpg" alt="candidate's photo" border="2px solid black" height="300">
+<img src="./assets/0645.jpg" alt="candidate's photo" height="300">
 
 ### Contacts  
 Skype: [https://join.skype.com/invite/e3o5bVCuHSzW](https://join.skype.com/invite/e3o5bVCuHSzW) <br>
