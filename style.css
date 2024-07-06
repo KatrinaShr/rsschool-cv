@@ -19,14 +19,22 @@ h6 {
     padding: 0;
 }
 
+:root {
+  --primary-color: #c1bbb15e;
+  --second-color: #6A5C54;
+  --header-color: #68635a66;
+  --text-color: #45342a;
+  --hover-color: #30a930;
+}
+
 a {
-    color: #49423e;
+    color: var(--text-color);
     text-decoration: none;
     transition: .3s;
 }
 
 a:hover {
-  color: #49423e;
+  color: var(--hover-color);
   text-decoration: underline;
 }
 
@@ -43,12 +51,12 @@ body {
   font-family: Inter;
   font-size: 16px;
   line-height: 1.5;
-  color: #49423e;
+  color: var(--text-color);
 }
 
 .container {
   max-width: 1440px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 30px 60px;
 }
 
@@ -62,7 +70,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  background: #d1d0d095;
+  background: var(--primary-color);
 }
 
 .container-right {
@@ -79,8 +87,8 @@ body {
   object-fit: cover;
   width: 100%;
   /* border-radius: 24px; */
-  border: 2px solid #6A5C54; 
-  box-shadow: 0 0 5px #3C3229;
+  border: 2px solid var(--second-color); 
+  box-shadow: 0 0 5px var(--text-color);
 }
 
 h1 {
@@ -138,4 +146,24 @@ h3 {
 .experience-content-item::before,
 .skills-item::before {
   content: "- ";
+}
+
+header {
+  border-top: 0.5px solid var(--header-color);
+  border-bottom: 0.5px solid var(--header-color);
+  /* box-shadow: 0 0 1px var(--text-color); */
+}
+
+nav {
+  display: flex;
+  height: 60px;
+  justify-content: end;
+}
+
+.nav-list {
+  display: flex;
+  flex-direction: row;
+  column-gap: 30px;
+  align-items: center;
+  list-style: none;
 }
