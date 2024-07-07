@@ -63,7 +63,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   flex-wrap: wrap;
-  width: fit-content;
 }
 
 .container {
@@ -153,6 +152,7 @@ h3 {
   border-radius: 10px;
   border: 2px solid #d1d0d050;
   box-shadow: 0 0 1px #968e8c94;
+  white-space: pre-wrap;
 }
 
 .experience-content {
@@ -223,6 +223,25 @@ nav {
 }
 
 @media (max-width: 810px) {
+  .container-left,
+  .container-right {
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .education, 
+  .contacts, 
+  .languages, 
+  .skills, 
+  .about, 
+  .experience, 
+  .code {
+    /* max-width: 400px; */
+    /* flex: 1; */
+  }
+}
+
+@media (max-width: 640px) {
   html {
     /* 8px */
     font-size: 50%;
@@ -230,15 +249,6 @@ nav {
 
   .container-left,
   .container-right {
-    padding: 20px;
-    gap: 20px;
-  }
-}
-
-@media (max-width: 640px) {
-  .container-left,
-  .container-right,
-  .container {
     padding: 15px;
     gap: 15px;
   }
